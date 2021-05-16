@@ -1,0 +1,153 @@
+/* navbar */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li a {
+    display: block;
+    color:#f5f5f8;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 560;
+}
+
+li a:hover {
+    border-bottom: white solid 1px;
+}
+
+li .btn{
+    font-family: sans-serif;
+    font-weight: 560;
+    border-radius: 50px;
+    background-color: #a8a8ac;
+    margin-left: 10px;
+}
+/* jumbotron */
+.jumbotron{
+    background-image: url(img/bg1.png);
+    background-size: cover;
+    width: auto;
+    height: 668px;
+}
+.athena{
+    background-image: url(img/athena.png);
+    background-size: cover;
+    width: auto;
+    height: 668px;
+}
+.ares{
+    background-image: url(img/ares.png);
+    background-size: cover;
+    width: auto;
+    height: 668px;
+}
+.poseidon{
+    background-image: url(img/poseidon.png);
+    background-size: cover;
+    width: auto;
+    height: 668px;
+}
+
+/* athena content */
+#athena{
+    background-color: #0e0e14;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+#athena a{
+    text-decoration: none;
+}
+#athena h1{
+    color: white;
+    font-family: serif;
+    padding-top: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+#athena p{
+    color: white;
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* ares content */
+#ares{
+    background-color: #a8a8ac;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+#ares a{
+    text-decoration: none;
+}
+#ares h1{
+    color: rgb(8, 8, 8);
+    font-family: serif;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#ares p{
+    color: rgb(3, 3, 3);
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* posaidon content */
+#posaidon{
+    background-color: #0e0e14;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+#posaidon a{
+    text-decoration: none;
+}
+#posaidon h1{
+    color: white;
+    font-family: serif;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#posaidon p{
+    color: white;
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* footer */
+#sosmed{
+    padding: 10px;
+}
+
+footer{
+    background-color: black; 
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: gray; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    text-align: center; 
+    padding-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #a8a8ac;
+}
+
+footer a:hover{
+    color: gold;
+}
